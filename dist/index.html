@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by abdullah abdelhadi</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Book Browser</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-fpAABmzu8tRbcYoEy4P0INl9JUGAQdXwOsFxMKK9oYf24VPBAPpRb7iIzARuJyLmYzgo0S4LsmGH8wz3VUn52A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Education Book Browser</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bookmarks</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="address-bar">
+            <input type="text" id="url-input" placeholder="Enter URL">
+            <button onclick="navigate()">Go</button>
+        </div>
+        <div class="tabs" id="tabs">
+            <!-- Tabs will be dynamically generated -->
+        </div>
+        <div class="browser-content" id="browser-content">
+            <!-- Website content will be displayed here -->
+        </div>
+        <!-- Fullscreen Button -->
+        <button class="fullscreen-button" onclick="toggleFullscreen()"><i class="fas fa-expand"></i></button>
+    </main>
+    <aside>
+        <div class="bookmarks" id="bookmarks">
+            <!-- Bookmarks will be dynamically generated -->
+        </div>
+        <div class="educational-websites">
+            <h2>Educational Websites</h2>
+            <ul>
+                <li><a href="#">Khan Academy</a></li>
+                <li><a href="#">Coursera</a></li>
+                <li><a href="#">TED-Ed</a></li>
+            </ul>
+        </div>
+        <div class="gaming">
+            <h2>Play Games</h2>
+            <p>Play web-based games here.</p>
+        </div>
+    </aside>
+    <footer>
+        <p>&copy; 2024 Education Book Browser. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
